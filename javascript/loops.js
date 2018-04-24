@@ -1,8 +1,8 @@
 
 
 var persons =[
-  {'id':1,'fName':"Pal Kristian",'lName':"Oien",'address':"Something Street",'number':91757342},
-  {'id':2,'fName':"Ken",'lName':"Madsen",'address':"Something Street",'number':74217834}
+  {id:1,fName:"Pal Kristian",lName:"Oien",address:"Something Street",number:91757342},
+  {id:2,fName:"Ken",lName:"Madsen",address:"Something Street",number:74217834}
 ]
 
 
