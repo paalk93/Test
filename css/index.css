@@ -1,0 +1,54 @@
+body{
+  margin:0;
+}
+
+.viewport{
+  width:99vw;
+  height:99vh;
+}
+
+.bg-primary{
+  background-color:#f4f4f4;
+}
+
+.grid-layout-default{
+  display:grid;
+  height:100%;
+  grid-template-rows: 6em 1fr 1fr 3em;
+  grid-template-columns: 1fr 85% 1fr
+}
+
+.grid-area-navbar{
+  grid-row: 1 / 2;
+  grid-column: 1 / 4
+}
+
+.grid-area-top-content{
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.grid-area-bottom-content{
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+
+.grid-area-footer{
+  grid-row: 4 / 5;
+  grid-column: 1 / 4;
+}
+
+.red{
+  background-color:red;
+}
+.green{
+  background-color:green;
+}
+
+.blue{
+  background-color:blue;
+}
+
+.yellow{
+  background-color:yellow;
+}
