@@ -1,8 +1,15 @@
 .dropdown ul{
   list-style:none;
   padding:0.3rem;
+  margin:0;
 }
 
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px;
+}
 .dropbtn {
     background-color: grey;
     color: white;
@@ -12,28 +19,22 @@
     cursor: pointer;
 }
 .dropdown {
-  float:right;
   display:none;
+  float:right;
+  margin-right:1rem;
 }
-.dropdown-content {
-    display: none;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px;
-}
+
 .dropdown-content a {
     color: black;
     text-decoration: none;
     display: block;
-    margin-top:0.5rem;
+    padding:0.3rem;
 }
 .dropdown-content a:hover{
-  background-color: grey;
-}
-.dropdown:hover .dropdown-content{
-  display: block;
+  background-color: lightgrey;
 }
 .dropdown:hover .dropbtn{
-  background-color: grey;
+  background-color:lightgrey;
 }
 .text-right{
   text-align:right;
